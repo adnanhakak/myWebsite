@@ -1,0 +1,13 @@
+ .next{
+     display: flex;
+      justify-content: space-around;
+       flex-wrap: wrap;
+     }
+
+     @media screen and (max-width:400px) {
+        .next{
+            margin-right: 300px;
+        }
+    .container{
+        padding-right: 200px;
+    }}

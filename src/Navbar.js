@@ -11,6 +11,7 @@ const Navbar = () => {
     const toggleNavBar = () => {
         setNavbarVisible(prev => !prev);
         console.log('toggling')
+
     }
 
     const navBarClasses = navbarVisible ? ['collapse', 'navbar-collapse', 'show'] : ['collapse', 'navbar-collapse']
@@ -22,7 +23,7 @@ const Navbar = () => {
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className={navBarClasses.join(' ')} id="navbarNavAltMarkup">
-                    <div className="navbar-nav">
+                    <div className="navbar-nav" onClick={toggleNavBar}>
                         <NavLink exact to='/' className="nav-item nav-link" >Home <span className="sr-only"></span></NavLink>
                         <NavLink to='/projects' className="nav-item nav-link" >Projects</NavLink>
                         <NavLink to='/articles' className="nav-item nav-link" >Articles</NavLink>

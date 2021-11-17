@@ -29,8 +29,8 @@ const Landing = () => {
                 <h4> Get in touch with me  </h4>
                 <div className='social'>
                     <a style={{ color: '#1DA1F2' }} target='_blank' rel="noreferrer" href="https://twitter.com/_4ah_"><i className="fab fa-twitter icon"></i></ a>
-                    <a style={{ color: '#fbad50' }} target='_blank' rel="noreferrer" href="https://www.instagram.com/_"><i class="fab fa-instagram"></i></a>
-                    <a style={{ color: '#f5f5f5' }} target='_blank' rel="noreferrer" href="https://github.com/adnanhakak"><i class="fab fa-github"></i></a>
+                    <a style={{ color: '#fbad50' }} target='_blank' rel="noreferrer" href="https://www.instagram.com/_"><i className="fab fa-instagram"></i></a>
+                    <a style={{ color: '#f5f5f5' }} target='_blank' rel="noreferrer" href="https://github.com/adnanhakak"><i className="fab fa-github"></i></a>
 
 
                 </div>

@@ -9,7 +9,7 @@ const ArticleList = ({ content }) => {
         <div className='cont'>
             <div className='container'>
                 {content.filter((blog) => parseInt(blog.id) === parseInt(id)).map((filteredblog) => {
-                    return <div>
+                    return <div key={filteredblog.id}>
                         <h3 id='heading'>{filteredblog.heading}</h3> <p id='date'> {filteredblog.date}</p>
                         <div id='blogcontent'> {filteredblog.content}</div>
                     </div>

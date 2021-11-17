@@ -8,6 +8,7 @@ import scorekeeper from './images/scorekeeper.jpg'
 import reaction from './images/reaction.jpg'
 import back from './images/xyz.jpg'
 import tranjour from './images/tranjour.jpg'
+import './Projects.css'
 
 const Projects = () => {
     return (
@@ -16,8 +17,8 @@ const Projects = () => {
                 P<span className="roj">rojects</span>
             </div>
 
-            <div className="container" style={{ position: 'absolute', marginLeft: '240px' }}  >
-                <div style={{ display: 'flex', justifyContent: 'space-around', flexWrap: 'wrap' }}>
+            <div className="container" style={{ position: 'absolute', }}  >
+                <div className='next' >
                     <EachProject address='https://scorekeeperrepresent.netlify.app' img={scorekeeper} text='Track the score of 2 teams or players' heading='score keeper' location='begin' />
                     <EachProject address='https://timegamerepresent.netlify.app' img={reaction} text='Check your reaction with aim labs here' heading='time game' location='end' />
                     <EachProject address='https://cryptopricesrepresent.netlify.app' img={crypto} text='Type name of the crypto to get the price ' heading='Get crypto prices' location='center' />

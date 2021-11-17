@@ -53,7 +53,7 @@
     }
 
 
-    @media screen and (max-width:1600px) {
+    @media screen and (max-width:1650px) {
         
         .image {
             height: 100%;
@@ -63,10 +63,11 @@
             z-index: -1;
         }
               .back{
-                  height:94.7vh;
+                  height:93vh;
               }
               .textdiv{
                 position :fixed;
+                display: none;
                 left: 0;
                 top:5;
                 color :rgb(221, 210, 210);
@@ -84,4 +85,6 @@
             }
            
     }
+   
+    
     
