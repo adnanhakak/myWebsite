@@ -4,10 +4,10 @@
        flex-wrap: wrap;
      }
 
-     @media screen and (max-width:400px) {
+     /* @media screen and (max-width:400px) {
         .next{
             margin-right: 300px;
         }
     .container{
         padding-right: 200px;
-    }}
+    }} */

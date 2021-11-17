@@ -5,7 +5,7 @@
      object-fit: cover;
       }
       .back{
-          height:94vh;
+          height:94.5vh;
       }
 
 .each a img{
@@ -76,13 +76,13 @@
                 letter-spacing: -2px;
                 
             }
-            .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+            /* .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
                 width: 100%;
                 padding-right: var(--bs-gutter-x,11.75rem);
                 padding-left: var(--bs-gutter-x,-100rem);
                 margin-right: auto;
                 margin-left: auto;
-            }
+            } */
            
     }
    
