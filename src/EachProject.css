@@ -5,7 +5,7 @@
      object-fit: cover;
       }
       .back{
-          height:94.7vh;
+          height:94vh;
       }
 
 .each a img{
@@ -30,7 +30,7 @@
     bottom:0;
     color :rgb(221, 210, 210);
     font-family:cursive;
-    font-size: 6em;
+    font-size: 8em;
     letter-spacing: -2px;
     
 }
