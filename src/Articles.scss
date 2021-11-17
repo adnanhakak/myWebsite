@@ -1,0 +1,113 @@
+
+
+.articles h1{
+    font-family:monospace;
+    // text-shadow: 0 13.36px 8.896px #caba8d, 0 -2px 1px #e2e4d2;
+    letter-spacing: 1px;
+   color:rgb(80, 77, 77);
+}
+#hr1{
+width:35%;
+border:2.5px solid #2f4353;
+text-shadow: #fff;
+border-radius: 20px;
+padding-bottom: 2px;
+}
+
+
+.row{
+    display:flex;
+    justify-content: space-evenly;
+}
+.articles{
+  background-color: #2f4353;
+background-image: linear-gradient(315deg, #2f4353 0%, #d2ccc4 74%);
+}
+.blog_card_content h4{
+  text-shadow: none;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Muli|Playfair+Display&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  font-family: muli;
+  
+}
+
+.blog_card {
+  margin: 30px 10px;
+  position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #c8a482;
+    border-radius: 30px  0 30px 0;
+    box-shadow: 0 12px 15px rgba(0,0,0,0.1), 0 17px 50px rgba(134, 111, 111, 0.1);
+    
+  
+  &_image{
+        padding: 20px;
+    
+    & img{
+      margin-top: -60px;
+    width: 100%;
+    border-radius: 20px;
+    transition: .25s ease-in-out;
+    box-shadow: 0 8px 17px rgba(0,0,0,0.1), 0 6px 20px rgba(0,0,0,0.1);
+    }
+  }
+  
+  &_content {
+    padding: 16px;
+    
+    & h3{
+    font-size: 24px;
+    line-height: 36px;
+    color: #303133;
+    font-weight: 500;
+    margin-bottom: 20px;
+    letter-spacing: -0.5;
+    }
+    
+    & p{
+     font-size: 16px;
+     color: #777;
+     line-height: 36px;
+    }
+    
+    &  a{
+        text-decoration: none;
+      
+      &  h6{
+        font-size: 12px;
+        letter-spacing: 1.5px;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: #c8a482;
+        margin-bottom: 33px;
+      }
+    }
+  }
+  
+  &:hover {
+    .blog_card_image{
+      & img{
+        transform: translatey(-3%);
+      }
+    }
+  }
+}
+
+@media screen and (max-width:800px) {
+  #hr1{
+    width:65%;
+    border:2.5px solid #2f4353;
+    text-shadow: #fff;
+    border-radius: 20px;
+    padding-bottom: 2px;
+    }
+}

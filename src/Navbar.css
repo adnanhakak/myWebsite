@@ -1,0 +1,55 @@
+.navbar-brand{
+    padding-left: 20px;
+}
+
+.full{
+position: relative;
+height:50px;
+font-size: 14px;
+}
+
+
+.navbar-nav {
+    float:right;
+    display: flex;
+    width :100%;
+    margin-right:80px ;
+    /* justify-content: space-around; */
+    justify-content: flex-end;
+}
+
+.navbar-nav a{
+    margin-right: 140px;
+     color:grey;
+     text-decoration: none;
+     position: relative;
+}
+
+  .navbar-nav a:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0.7px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(247, 243, 243);
+      visibility: hidden;  
+    transition: all 0.3s ease-in-out;
+  }
+
+.navbar-nav a:hover:before{
+    color:rgb(226, 0, 0) !important;   
+    visibility: visible;
+    width: 100%;
+    } 
+ 
+    @media screen and (max-width:800px) {
+  .navbar-nav {
+    float: right;
+    display: flex;
+    width: 100%;
+    margin-right: -37px;
+    /* justify-content: space-around; */
+    justify-content: flex-end;
+}
+}

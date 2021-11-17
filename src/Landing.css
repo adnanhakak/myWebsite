@@ -1,0 +1,84 @@
+.image{
+    height: 100%;
+    width: 100%;
+     object-fit: cover;
+}
+
+.landing {
+    height: 94.7vh;
+}
+
+h4{
+    text-shadow: 0px 8px 3px rgba(0,0,0,0.1),
+    5px 10px 3px rgba(0,0,0,0.5),
+    -5px 10px 3px rgba(0,0,0,0.05);
+}
+
+p , span{
+     font-family: Gill Sans, Verdana;
+	font-size: 13px;
+	line-height: 17px;
+	 letter-spacing: 1.3px;
+	font-weight: bold; 
+}
+
+.hr{
+    width:35%;
+    border:2.5px solid #8c8c8c;
+    text-shadow: #fff;
+    padding-bottom: 3px;
+      border-radius: 20px;
+    }
+
+.text .h1{
+    color:rgb(179, 172, 172);
+    text-shadow: 0px 8px 3px rgba(0,0,0,0.5),
+    5px 10px 3px rgba(0,0,0,0.05),
+    -5px 10px 3px rgba(0,0,0,0.05);    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text{
+    position :absolute;
+    margin-top: 200px;
+    padding-top: 5px;
+    margin-left:80px;
+    color:rgb(177, 168, 168);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text a{
+    font-size: 40px;
+    margin-right: 18px;
+    text-decoration: none;
+    
+}
+
+@media screen and (max-width:800px) {
+    .hr{
+        width:58%;
+    }
+    p , span{
+        font-family: Gill Sans, Verdana;
+       font-size: 10px;
+       line-height: 18px;
+        letter-spacing: 1.4px;
+       font-weight: bold; 
+   }
+   .text{
+    position :absolute;
+    margin-top: 75px;
+    padding-top: 5px;
+    margin-left:40px;
+    color:rgb(177, 168, 168);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.text a{
+    font-size: 30px;
+    /* margin-right: 18px; */
+    text-decoration: none;
+    
+}
+
+
+}

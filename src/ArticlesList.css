@@ -1,0 +1,35 @@
+.cont{
+    margin-top:30px;
+    font:400 18px 'Lora', Georgia,serif;
+	line-height:2;
+	color:#505050;
+    letter-spacing: 1.5px;
+    
+}
+#heading{
+
+color:#2b2b2b;
+	font:40px 'Droid Sans',sans-serif;
+}
+
+#date{
+   
+    margin-top: 8px;
+    
+}
+
+#blogcontent{
+    margin-top: 20px;
+    padding-bottom:25px;
+    /* padding-right:80px ; */
+}
+
+#blogcontent::first-letter{
+    font-size: 25px;
+    padding:0;
+    font-weight: 900;
+}
+.cont p::first-letter {
+    font-weight: bold;
+    color: red;
+  }
